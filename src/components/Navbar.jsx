@@ -1,22 +1,15 @@
 import React from 'react';
+import '../stylesheets/Navbar.css'
 
-function Navbar () {
+function Navbar (props) {
   return (
-		<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
-</ul>
-  );
+		<div className='contenedor_navbar'>
+			<nav>
+				
+			</nav>
+			<div className='linea'/>
+		</div>
+	);
 }
 
 export default Navbar;
