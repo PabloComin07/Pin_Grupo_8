@@ -1,10 +1,7 @@
 import './App.css';
 import React from 'react';
-//import Navbar from './components/Navbar'
 import Imagen from './images/imagen1_Chalten.jpg'
-//import Logo from './images/logo1.png'
 import Logo from './images/logo.jpg'
-
 
 function App() {
   return (
@@ -22,6 +19,7 @@ function App() {
         <p className='parrafo1'>"El Chalten"</p>
         <p className='parrafo2'>Capital nacional del trekking</p>
         <p className='parrafo3'>"Donde un viaje de mil millas comienza con un primer paso"</p>
+        <button className='button_readme'>Read more</button>
       </div>
     </div>
   );
