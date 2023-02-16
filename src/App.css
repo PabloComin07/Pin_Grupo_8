@@ -1,3 +1,4 @@
+
 div,
 body {
   margin: 0;
@@ -5,6 +6,29 @@ body {
   font-family: roboto, sans-serif;
 }
 
+/* Estilos generales para el contenedor principal */
+.primer_contenedor {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilos para la imagen de fondo de la primera pantalla */
+.imagen_contenedor_principal {
+  background-size:cover;
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el nav bar */
 ul {
   position: fixed;
   right: 0;
@@ -42,6 +66,7 @@ ul li:hover a:before {
   transform: translateX(100);
 }
 
+/* Parrafo de "El Charlten" */
 .texto_primer_contenedor {
   background: transparent;
   display: flex;
@@ -80,26 +105,7 @@ ul li:hover a:before {
   font-size: 1em;
 }
 
-.primer_contenedor {
-  width: auto;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.imagen_contenedor_principal {
-  background-size:cover;
-	background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Estilos para el logo */
 .logo_contenedor_principal {
   max-width: 15%;
   max-height: 15%;
@@ -110,7 +116,8 @@ ul li:hover a:before {
   margin-left: 60px;
   
 }
-
+ 
+/* Estilos para el boton readme */
 .button_readme {
   margin-left: 150px;
   height: 50px;
@@ -124,9 +131,9 @@ ul li:hover a:before {
   align-items: center;
   font-weight: bold;
   color: white;
-  border: 1px solid white;
+  border: 0px solid white;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 15px;
   user-select: none;
 }
 
