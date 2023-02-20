@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import Imagen from './images/imagen1_Chalten.jpg'
+import Imagen1 from './images/imagen2_Chalten.jpg'
 import Logo from './images/logo.jpg'
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
         <img className='logo_contenedor_principal' src={Logo} alt='Imagen logo'/>
         <ul>
           <li><a href='#'>Home</a></li>
-          <li><a href='#'>About</a></li>
-          <li><a href='#'>Products</a></li>
+          <li><a href='#contenedor2'>About</a></li>
+          <li><a href='#contenedor3'>Products</a></li>
           <li><a href='#'>Services</a></li>
           <li><a href='#'>Contact</a></li>
         </ul>
@@ -23,7 +24,7 @@ function App() {
           <button className='button_readme'>Read more</button>
         </div>
       </div>
-      <div className='segundo_contenedor'>
+      <div id='contenedor2' className='segundo_contenedor'>
         <h1 className='titulo_segundo_contenedor'>Por que conocer El Chalten?</h1>
         <ul className='lista_segundo_contenedor'>
           <li>Disfrutar de la naturaleza y el paisaje patagónico, con vistas impresionantes del cerro Fitz Roy, el cerro Torre, los glaciares y los lagos.</li>
@@ -31,6 +32,18 @@ function App() {
           <li>Vivir una experiencia única y desafiante, superando las dificultades del clima, el terreno y la distancia.</li>
           <li>Sentir la satisfacción de llegar a lugares emblemáticos como la Laguna de los Tres o la Laguna Torre.</li>
         </ul>
+      </div>
+      <div id='contenedor3' className='tercer_contenedor'>
+        <img className='imagen_tercer_contenedor' src={Imagen1} alt='Imagen background'/>
+        <div className='tercer_contenedor_bis'>
+          <div className='tercer_contenedor_bloque_1'>
+          </div>
+          <div className='tercer_contenedor_bloque_2'>
+          </div>
+        </div>
+        <div className='tercer_contenedor_bloque_3'>
+          
+        </div> 
       </div>
     </div>
   );
