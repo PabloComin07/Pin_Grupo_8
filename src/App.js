@@ -3,16 +3,19 @@ import React from 'react';
 import Imagen from './images/imagen1_Chalten.jpg'
 import Imagen1 from './images/imagen2_Chalten.jpg'
 import Imagen2 from './images/imagen3_Chalten.jpg'
+import Imagen3 from './images/imagen4_Chalten.jpg'
+import Imagen4 from './images/imagen5_Chalten.jpg'
+import Imagen5 from './images/imagen6_Chalten.jpg'
 import Logo from './images/logo.jpg'
 
 function App() {
   return (
     <div className='App'>
-      <div className='primer_contenedor'>
-        <img className='imagen_contenedor_principal' src={Imagen} alt='Imagen background'/>
+      <div id='contenedor1' className='primer_contenedor'>
+        <img className='imagen_contenedor_principal' src={Imagen3} alt='Imagen background'/>
         <img className='logo_contenedor_principal' src={Logo} alt='Imagen logo'/>
         <ul>
-          <li><a href='#'>Home</a></li>
+          <li><a href='#contenedor1'>Home</a></li>
           <li><a href='#contenedor2'>About</a></li>
           <li><a href='#contenedor3'>Products</a></li>
           <li><a href='#contenedor4'>Services</a></li>
@@ -35,7 +38,7 @@ function App() {
         </ul>
       </div>
       <div id='contenedor3' className='tercer_contenedor'>
-        <img className='imagen_tercer_contenedor' src={Imagen1} alt='Imagen background'/>
+        <img className='imagen_tercer_contenedor' src={Imagen4} alt='Imagen background'/>
         <div className='tercer_contenedor_bis'>
           <div className='tercer_contenedor_bloque_1'>
           </div>
@@ -43,7 +46,7 @@ function App() {
           </div>
         </div>
         <div className='tercer_contenedor_bloque_3'>
-         <> </> 
+         <>falta agregar el carrousel  </> 
         </div> 
       </div>
       <div id='contenedor4' className='cuarto_contenedor'>
@@ -95,6 +98,40 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div id='contenedor5' className='quinto_contenedor'>
+        <div className='quinto_contenedor_bis'>
+          <div className='tercer_contenedor_bloque_1'>
+          </div>
+          <div className='tercer_contenedor_bloque_2'>
+          </div>
+          <div className='quinto_contenedor_bloque_3'>
+            <img className='imagen_quinto_contenedor' src={Imagen5} alt='Imagen background'/>
+          </div>
+          <div className='quinto_contenedor_bloque_4'>
+            <form class="form-floating">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" />
+              <label for="floatingInput">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="tel" class="form-control" id="floatingInput" placeholder="Telefono" />
+              <label for="floatingInput">Telefono</label>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label" maxlength='200'>Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+            </form>
+          </div>
+        </div>          
       </div>
     </div>
   );
