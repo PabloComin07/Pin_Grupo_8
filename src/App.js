@@ -22,10 +22,10 @@ function App() {
           <li><a href='#contenedor5'>Contact</a></li>
         </ul>
         <div className='texto_primer_contenedor'>
-          <p className='parrafo1'>"El Chalten"</p>
+          <p className='parrafo1'>PATAGONIA</p>
           <p className='parrafo2'>Capital nacional del trekking</p>
           <p className='parrafo3'>"Donde un viaje de mil millas comienza con un primer paso"</p>
-          <button className='button_readme'>Read more</button>
+          <button className='button_readme'>Readme more</button>
         </div>
       </div>
       <div id='contenedor2' className='segundo_contenedor'>
@@ -38,7 +38,6 @@ function App() {
         </ul>
       </div>
       <div id='contenedor3' className='tercer_contenedor'>
-        <img className='imagen_tercer_contenedor' src={Imagen4} alt='Imagen background'/>
         <div className='tercer_contenedor_bis'>
           <div className='tercer_contenedor_bloque_1'>
           </div>
@@ -46,7 +45,35 @@ function App() {
           </div>
         </div>
         <div className='tercer_contenedor_bloque_3'>
-         <>falta agregar el carrousel  </> 
+          <img className='imagen_tercer_contenedor' src={Imagen4} alt='Imagen background'/> 
+          <div className='sub_tercer_contenedor_bloque_3'>
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src={Imagen} class="d-block w-100" alt="Montaña" />
+                </div>
+                <div class="carousel-item">
+                  <img src={Imagen} class="d-block w-100" alt="Montaña" />
+                </div>
+                <div class="carousel-item">
+                  <img src={Imagen2} class="d-block w-100" alt="Montaña" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div> 
       </div>
       <div id='contenedor4' className='cuarto_contenedor'>
