@@ -110,25 +110,25 @@ function App() {
           </div>
           <div className='quinto_contenedor_bloque_4'>
             <form class="form-floating">
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" />
-              <label for="floatingInput">Nombre</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-              <label for="floatingInput">Email</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="tel" class="form-control" id="floatingInput" placeholder="Telefono" />
-              <label for="floatingInput">Telefono</label>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label" maxlength='200'>Mensaje</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" />
+                <label for="floatingInput">Nombre</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="tel" class="form-control" id="floatingInput" placeholder="Telefono" />
+                <label for="floatingInput">Telefono</label>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label" maxlength='200'>Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </div>
             </form>
           </div>
         </div>          
