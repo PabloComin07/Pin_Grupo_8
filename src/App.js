@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { IoArrowUpSharp } from "react-icons/io5";
 import Imagen from './images/imagen1_Chalten.jpg'
 import Imagen1 from './images/imagen2_Chalten.jpg'
 import Imagen2 from './images/imagen3_Chalten.jpg'
@@ -161,7 +162,7 @@ function App() {
         </div>          
       </div>
       <a classname='buttom_home_tag' href='#contenedor1'>
-        <button className='button_home'>Home</button>
+        <button className='button_home'><IoArrowUpSharp/></button>
       </a>
     </div>
   );

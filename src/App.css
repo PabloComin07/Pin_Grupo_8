@@ -324,12 +324,11 @@ ul li:hover a:before {
   position: fixed;
   bottom: 50px;
   right:50px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   opacity: 75%;
-  font-size: 1em; 
+  font-size: 1.5em; 
   background-color: #066fe696;
-  font-weight: bold;
   color: white;
   border: 0px solid white;
   cursor: pointer;
