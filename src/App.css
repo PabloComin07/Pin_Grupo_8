@@ -344,7 +344,7 @@ ul li:hover a:before {
 .footer {
   position: absolute;
   bottom:0;
-  background: rgba(128, 128, 128, 0.712);
+  background: rgba(128, 128, 128, 0.418);
   opacity: 80%;
   width:100%;
   padding: 1% 0 0 2%;
