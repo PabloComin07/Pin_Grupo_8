@@ -159,7 +159,15 @@ function App() {
               </div>
             </form>
           </div>
-        </div>          
+          <div className='footer'>
+            <footer>
+              <p>Copyright &copy; 2023. All rights reserved</p>
+              <a href='#contenedor1'>
+                <img className='logo_footer' src={Logo} alt='Imagen logo'/>
+              </a>
+            </footer>
+          </div>
+        </div>
       </div>
       <a classname='buttom_home_tag' href='#contenedor1'>
         <button className='button_home'><IoArrowUpSharp/></button>

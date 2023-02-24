@@ -340,3 +340,25 @@ ul li:hover a:before {
   opacity: 100%;
   transform: scale(1.1);
 }
+
+.footer {
+  position: absolute;
+  bottom:0;
+  background: rgba(128, 128, 128, 0.712);
+  opacity: 80%;
+  width:100%;
+  padding: 1% 0 0 2%;
+}
+
+.logo_footer {
+  right: 1%;
+  position: absolute;
+  max-width: 40px;
+  max-width: 40px;
+  bottom: 10%;
+  right: 50%
+}
+
+.logo_footer:hover {
+  transform: scale(1.1);
+}
