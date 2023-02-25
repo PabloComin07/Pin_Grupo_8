@@ -1,0 +1,32 @@
+.segundo_contenedor {
+    background-color: whitesmoke;
+    background-size:cover;
+      background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .titulo_segundo_contenedor {
+    margin-top: 100px;
+    letter-spacing: 0.67px;
+    color: #f35539;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    
+  }
+  
+  .lista_segundo_contenedor {
+    margin-top: 200px;
+    padding: 50px;
+    flex-direction:row;
+    align-content: space-around;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 2px solid #26beef;
+  }
