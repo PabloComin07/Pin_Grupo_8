@@ -24,8 +24,7 @@ function App() {
         </ul>
         <div className='texto_primer_contenedor'>
           <p className='parrafo1'>PATAGONIA</p>
-          <p className='parrafo2'>Capital nacional del trekking</p>
-          <p className='parrafo3'>"Donde un viaje de mil millas comienza con un primer paso"</p>
+          <p className='parrafo2'>"Donde un viaje de mil millas comienza con un primer paso"</p>
           <button className='button_readme'>Readme more</button>
         </div>
       </div>

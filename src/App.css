@@ -87,7 +87,7 @@ ul li:hover a:before {
 }
 
 .parrafo1 {
-  margin-left: 90px;
+  margin-left: 110px;
   letter-spacing: 0.67px;
   color: #FFFFFF;
   font-family: Poppins, sans-serif;
@@ -96,13 +96,6 @@ ul li:hover a:before {
 }
 
 .parrafo2 {
-  margin-left: 20px;
-  font-family: roboto, verdana;
-  font-weight: 100;
-  font-size: 1em;
-}
-
-.parrafo3 {
   margin-left: 20px;
   font-family: roboto, verdana;
   font-weight: 100;
@@ -123,7 +116,7 @@ ul li:hover a:before {
  
 /* Estilos para el boton readme */
 .button_readme {
-  margin-left: 150px;
+  margin-left: 165px;
   height: 50px;
   width: 150px;
   font-size: 1em; /* em= es una unidad relativa. 1.6 veces el tamaño de la letra de su contenedor. Si cambio la letra lo demas se ajusta */
@@ -145,18 +138,5 @@ ul li:hover a:before {
   background-color: #138ddff1;
 }
 
-/******************** segundo contenedor *****************************/
-
-
-
-/******************** tercer contenedor *****************************/
-
-
-
-/******************** cuarto contenedor *****************************/
-
-
-
-/******************** quinto contenedor *****************************/
 
 
