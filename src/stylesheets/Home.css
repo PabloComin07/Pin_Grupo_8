@@ -21,45 +21,6 @@
   align-items: center;
 }
 
-/* Estilos para el nav bar */
-ul {
-  position: absolute;
-  right: 0;
-  Z-index: 1;
-  margin: 25px;
-  padding: 0;
-  display: flex;
-}
-
-ul li {
-  list-style: none;
-  padding: 10px 25px;
-}
-
-ul li a {
-  text-decoration: none;
-  color: gray;
-  font-size: 1.5em;
-  position: relative;
-  font-weight: bold;
-}
-
-ul li a:before {
-  content: '';
-  width: 0px;
-  height: 3px;
-  background: #00bcd4;
-  position: absolute;
-  top: 120%;
-  left: 0;
-  transition: .5s;
-}
-
-ul li:hover a:before {
-  width: 55%;
-  transform: translateX(100);
-}
-
 /* Parrafo de "El Charlten" */
 .texto_primer_contenedor {
   background: transparent;
