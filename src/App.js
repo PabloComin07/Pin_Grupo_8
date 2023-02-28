@@ -5,12 +5,12 @@ import Products from './components/Products';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Button_Home from './components/Button_Home';
-import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
+      <Home />
       <About />
       <Products />
       <Services />
