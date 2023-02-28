@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     position:relative;
   }
@@ -14,6 +15,7 @@
   }
   
   .cuarto_contenedor_bloque_2 {
+    background-size: cover;
     width: 60%;
     height: 100vh;
   }
