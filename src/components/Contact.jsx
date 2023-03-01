@@ -29,7 +29,7 @@ function Contact () {
     var f = new FormData();
     f.append("nombre", frameworkSeleccionado.nombre);
     f.append("email", frameworkSeleccionado.email);
-    f.append("telefono", frameworkSeleccionado.mensaje);
+    f.append("telefono", frameworkSeleccionado.telefono);
     f.append("mensaje", frameworkSeleccionado.mensaje);
     f.append("METHOD", "POST");
     await axios.post(baseUrl, f)
