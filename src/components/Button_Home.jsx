@@ -5,8 +5,8 @@ import { IoArrowUpSharp } from "react-icons/io5";
 function Button_Home () {
 	return (
 		<a classname='buttom_home_tag' href='#contenedor1'>
-      <button className='button_home'><IoArrowUpSharp/></button>
-    </a>
+    	<button className='button_home'><IoArrowUpSharp/></button>
+  	</a>
 	);
 }
 

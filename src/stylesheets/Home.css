@@ -2,7 +2,6 @@
 .primer_contenedor {
   width: auto;
   height: 100%;
-  display: flex;
   flex-wrap: wrap;
 }
 
