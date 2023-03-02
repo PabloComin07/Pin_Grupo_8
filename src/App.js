@@ -4,7 +4,7 @@ import About from './components/About';
 import Products from './components/Products';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import Button_Home from './components/Button_Home';
+import ButtonHome from './components/Button_Home';
 import Home from './components/Home';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Products />
       <Services />
       <Contact />
-      <Button_Home />
+      <ButtonHome />
     </div>
   );
 }

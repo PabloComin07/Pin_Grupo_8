@@ -1,8 +1,9 @@
 import React from "react";
 import '../stylesheets/Products.css';
-import Imagen from '../images/imagen1_Chalten.jpg';
-import Imagen2 from '../images/imagen3_Chalten.jpg';
+import Imagen8 from '../images/imagen8_Chalten.jpg';
+import Imagen9 from '../images/imagen9_Chalten.jpg';
 import Imagen4 from '../images/imagen5_Chalten.jpg';
+import Imagen7 from '../images/imagen7_Chalten.jpg';
 
 function Products () {
   return (
@@ -24,13 +25,13 @@ function Products () {
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src={Imagen} class="d-block w-100" alt="Montaña" />
+                  <img src={Imagen8} class="d-block w-100" alt="Montaña" />
                 </div>
                 <div class="carousel-item">
-                  <img src={Imagen} class="d-block w-100" alt="Montaña" />
+                  <img src={Imagen7} class="d-block w-100" alt="Montaña" />
                 </div>
                 <div class="carousel-item">
-                  <img src={Imagen2} class="d-block w-100" alt="Montaña" />
+                  <img src={Imagen9} class="d-block w-100" alt="Montaña" />
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

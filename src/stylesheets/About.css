@@ -14,7 +14,7 @@
   .titulo_segundo_contenedor {
     margin-top: 100px;
     letter-spacing: 0.67px;
-    color: #f35539;
+    color: #927b57;
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 3em;
@@ -28,5 +28,5 @@
     align-content: space-around;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-top: 2px solid #26beef;
+    border-top: 2px solid #c2b8a6;
   }

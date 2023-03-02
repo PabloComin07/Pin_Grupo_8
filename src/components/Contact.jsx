@@ -15,6 +15,7 @@ function Contact () {
     console.log(frameworkSeleccionado);
   }
 
+
   const baseUrl="http://localhost/ProyectoPIN_G8_Backend-1/public/api/agregarContacto";
   const [data, setData]=useState([]);
   const [frameworkSeleccionado, setFrameworkSeleccionado]=useState({
@@ -35,11 +36,14 @@ function Contact () {
     await axios.post(baseUrl, f)
     .then(response=>{
       setData(data.concat(response.data));
-      //abrirCerrarModalInsertar();
     }).catch(error=>{
       console.log(error);
     })
   }
+
+  useEffect(()=>{
+    peticionPost();
+  },[])
 
   return (
         <div id='contenedor5' className='quinto_contenedor'>
@@ -91,7 +95,7 @@ function Contact () {
                 <textarea type='text' class="form-control" id="exampleFormControlTextarea1" rows="3" name='mensaje' onChange={handleChange}></textarea>
               </div>
               <div class="col-12">
-                <button class="btn btn-primary" type="submit" onClick={()=>peticionPost()}>Submit form</button>
+                <button class="btn btn-primary" onClick={()=>peticionPost()}>Enviar</button>
               </div>
             </form>
           </div>
