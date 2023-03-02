@@ -14,7 +14,7 @@ function Home () {
         <div className='texto_primer_contenedor'>
           <p className='parrafo1'>PATAGONIA</p>
           <p className='parrafo2'>"Donde un viaje de mil millas comienza con un primer paso"</p>
-          <button className='button_readme'>Readme more</button>
+          <a href='#contenedor2'><button className='button_readme'>Saber mas</button></a>
         </div>
       </div>
 	);
